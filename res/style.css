@@ -1,0 +1,165 @@
+body {
+	background-color: #D9CB9E;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #798886;
+
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.card {
+	position: absolute;
+	left: -5px;
+	top: 0;
+	width:400px;
+	height:200px;
+	background: #1E1E20;
+	border: 5px solid #2A2C2B;
+	border-radius: 10px;
+}
+
+.card-text {
+	width: calc(100% - 24px);
+	height: calc(100% - 24px);
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #798886;
+
+	margin: 8px;
+}
+
+.text {
+	background: transparent;
+	border: 0;
+	resize: none;
+}
+.text:focus {
+	outline: none;
+}
+
+
+#title {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#title-text {
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40pt;
+	text-align: center;
+	color: #374140;
+
+	overflow-y: hidden;
+	resize: none;
+}
+
+
+.button {
+	background: #2A2C2B;
+	/*background: url("button.png");*/
+	border-radius: 6px;
+
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+
+	position: relative;
+
+	width: 90px;
+	height: 45px;
+	overflow: none;
+	cursor: pointer;
+}
+
+#center {
+	width:600px;
+	min-height:300px;
+	/*background:rgba(255,0,0,0.1);*/
+	position: relative;
+	left: calc(50% - 300px);
+}
+#card-holder {
+	position: relative;
+	width: 400px;
+	min-height: 300px;
+	max-height: 1000px;
+	left: 100px;
+	/*background: rgba(255,255,0,0.1);*/
+}
+
+#save {
+	position: fixed;
+	top: 8px;
+	left: 8px;
+}
+#next {
+	position: absolute;
+	bottom: 80px;
+	left:0;
+}
+#prev {
+	position: absolute;
+	bottom: 80px;
+	right:0;
+}
+#add {
+	position: absolute;
+	left: calc(50% - 45px);
+}
+
+#flip {
+	position: fixed;
+	top: 300px;
+	left: 8px;
+}
+#shuffle {
+	position: fixed;
+	top: 350px;
+	left: 8px;
+}
+
+
+#quiz-content {
+	width: 500px;
+	height: 400px;
+
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+
+	background: #1E1E20;
+	border: 5px solid #2A2C2B;
+	border-radius: 10px;
+}
+
+#quiz-layout {
+	width: inherit;
+	height: inherit;
+}
+
+#quiz-percentage {
+	height: 50px;
+	text-align: center;
+	cursor: default;
+	font-size: 24px;
+}
+#quiz-question {
+	height: 75px;	
+	text-align: center;
+	cursor: default;
+	font-size: 36px;
+}
+.answer {
+	text-align: center;
+	cursor: pointer;
+	font-size: 	30px;
+}
